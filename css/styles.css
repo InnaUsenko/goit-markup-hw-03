@@ -68,9 +68,14 @@ img {
 /* HEADER */
 
 .top-line {
-  height: 72px;
   border-bottom: 1px solid var(--accent);
+}
+.page-header.container {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav {
   display: flex;
@@ -226,6 +231,7 @@ img {
 /* SECTION 2 */
 .section-two {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .images-header {
@@ -237,25 +243,25 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
+  padding-bottom: 72px;
 }
 .images {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .img-1 {
-  display: flex;
-  flex-direction: column;
+  flex-basis: 360px;
   align-items: flex-start;
   padding: 0px;
 }
 .img-2 {
-  display: flex;
-  flex-direction: column;
+  flex-basis: 360px;
   align-items: flex-start;
   padding: 0px;
 }
 .img-3 {
-  display: flex;
-  flex-direction: column;
+  flex-basis: 360px;
   align-items: flex-start;
   padding: 0px;
 }
@@ -271,6 +277,7 @@ img {
 /* SECTION 3 */
 .section-three {
   padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--light);
 }
 .team-cards-header {
@@ -282,16 +289,24 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
+  padding-bottom: 72px;
 }
 .team-cards {
   display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .team-card-items {
   background-color: var(--white-background);
 }
-
+.cards-text-center {
+  text-align: center;
+}
 /* FOOTER */
 .foo {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: var(--dark);
 }
 .foo-text {
@@ -332,10 +347,14 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light);
+  width: 264px;
 }
 
 /* PORTFOLIO PAGE */
 .filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .filters-item {
 }
@@ -356,6 +375,13 @@ img {
 .filter-btn:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
+}
+
+.employees {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-basis: 360px;
 }
 .portfolio-img {
 }
