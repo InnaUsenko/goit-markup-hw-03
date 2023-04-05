@@ -353,8 +353,7 @@ img {
 /* PORTFOLIO PAGE */
 .filters {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  gap: 24px;
 }
 .filters-item {
 }
