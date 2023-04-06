@@ -277,6 +277,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 24px;
+}
+.employees {
 }
 .team-card-items {
   background-color: var(--white-background);
