@@ -312,7 +312,6 @@ img {
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 .white-word {
@@ -382,7 +381,7 @@ img {
   column-gap: 24px;
 }
 .employees-item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-img {
 }
