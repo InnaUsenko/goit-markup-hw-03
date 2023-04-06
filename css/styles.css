@@ -139,7 +139,7 @@ img {
 .t-phone {
 }
 
-/* HERO IMAGE */
+/* HERO IMAGE -  SECTION 1 */
 .hero-image {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -184,12 +184,14 @@ img {
   background-color: var(--pressed-state);
 }
 
-/* SECTION 1 */
+/* SECTION 2 */
 .section-one {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .features {
   display: flex;
+  gap: 24px;
 }
 
 .feature-header {
@@ -209,29 +211,25 @@ img {
   color: var(--text);
 }
 .feature-one {
+  width: calc((100% - 3 * 24px) / 4);
+  gap: 8px;
 }
 .feature-two {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: calc((100% - 3 * 24px) / 4);
   padding: 0px;
   gap: 8px;
 }
 .feature-three {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: calc((100% - 3 * 24px) / 4);
   padding: 0px;
   gap: 8px;
 }
 .feature-four {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: calc((100% - 3 * 24px) / 4);
   padding: 0px;
   gap: 8px;
 }
-/* SECTION 2 */
+/* SECTION 3 */
 .section-two {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -277,7 +275,7 @@ img {
   flex-grow: 0;
 }
 
-/* SECTION 3 */
+/* SECTION 4 */
 .section-three {
   padding-top: 120px;
   padding-bottom: 120px;
