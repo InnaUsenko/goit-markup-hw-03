@@ -210,25 +210,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--text);
 }
-.feature-one {
+.features-item {
   width: calc((100% - 3 * 24px) / 4);
   gap: 8px;
 }
-.feature-two {
-  width: calc((100% - 3 * 24px) / 4);
-  padding: 0px;
-  gap: 8px;
-}
-.feature-three {
-  width: calc((100% - 3 * 24px) / 4);
-  padding: 0px;
-  gap: 8px;
-}
-.feature-four {
-  width: calc((100% - 3 * 24px) / 4);
-  padding: 0px;
-  gap: 8px;
-}
+
 /* SECTION 3 */
 .section-two {
   padding-top: 120px;
