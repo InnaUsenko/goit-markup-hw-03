@@ -379,7 +379,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  flex-basis: 360px;
   column-gap: 24px;
 }
 .employees-item {
