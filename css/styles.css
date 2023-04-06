@@ -100,6 +100,7 @@ img {
   gap: 40px;
 }
 .nav-links {
+  display: block;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -154,7 +155,7 @@ img {
   margin-right: auto;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   color: var(--white-background);
   max-width: 496px;
 }
@@ -188,7 +189,7 @@ img {
 /* SECTION 2 */
 .section-one {
   padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 .features {
   display: flex;
@@ -232,7 +233,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
-  padding-bottom: 72px;
   margin-bottom: 72px;
 }
 .images {
@@ -248,12 +248,6 @@ img {
 }
 
 .rectangle71 {
-  box-sizing: border-box;
-
-  border: 1px solid var(--accent);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 /* SECTION 4 */
@@ -283,14 +277,13 @@ img {
 .employees {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 .team-card-items {
   background-color: var(--white-background);
   width: calc((100% - 3 * 24px) / 4);
 }
-.cards-text-center {
-  text-align: center;
-}
+
 /* FOOTER */
 .foo {
   padding-top: 100px;
@@ -308,28 +301,12 @@ img {
   text-transform: uppercase;
   color: var(--primary-brand);
   text-decoration: none;
-
   display: inline-block;
-  flex-direction: row;
-  align-items: center;
   padding: 0px;
   margin-bottom: 16px;
 }
 .white-word {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--light);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .foo-p {
   font-size: 16px;
@@ -375,7 +352,7 @@ img {
   border: 1px solid transparent;
 }
 
-.employees {
+.employees-portfolio {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
