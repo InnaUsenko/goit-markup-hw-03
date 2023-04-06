@@ -312,6 +312,8 @@ img {
   flex-direction: row;
   align-items: center;
   padding: 0px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .white-word {
   font-family: 'Raleway';
