@@ -232,27 +232,20 @@ img {
   text-transform: capitalize;
   color: var(--dark);
   padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 24px;
 }
-.img-1 {
+.imgs-item {
   flex-basis: 360px;
   align-items: flex-start;
   padding: 0px;
 }
-.img-2 {
-  flex-basis: 360px;
-  align-items: flex-start;
-  padding: 0px;
-}
-.img-3 {
-  flex-basis: 360px;
-  align-items: flex-start;
-  padding: 0px;
-}
+
 .rectangle71 {
   box-sizing: border-box;
 
