@@ -308,8 +308,8 @@ img {
   text-transform: uppercase;
   color: var(--primary-brand);
   text-decoration: none;
+
   display: inline-block;
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
