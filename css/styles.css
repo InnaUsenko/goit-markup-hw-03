@@ -318,7 +318,7 @@ img {
 
 /* PORTFOLIO PAGE */
 .main-section {
-  padding: 96px 120px;
+  padding: 96px 0 120px 0;
 }
 .filters {
   display: flex;
